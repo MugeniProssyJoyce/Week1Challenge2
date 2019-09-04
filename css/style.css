@@ -1,0 +1,236 @@
+html,body{
+    min-width:290px;
+      color: #4d4e53;
+      background-color: #ffffff;
+      font-family: 'Open Sans',Arial,sans-serif;
+      line-height: 1.5;
+  }
+  
+.search { 
+  position: relative; 
+  margin: 0 auto ;
+  text-align: center;
+}
+.search input { 
+  text-indent: 30px;
+   font-family:  FontAwesome, sans-serif;
+}
+.search .fa-search { 
+  position: absolute;
+  top: 20px;
+  left: 17%;
+  font-size: 15px;
+  color:rgba(0,22,22,0.4)
+}
+
+  input{
+    width:300px;
+    padding: 8px;
+    border-radius: 20px;
+    outline: none;
+    border:1px solid;
+    border-color:rgba(0,22,22,0.4);
+    font-size: 16px;
+    background-color:  rgb(240, 246, 253);
+  }
+  #navbar{
+    position:fixed;
+    min-width:290px;
+    top:0px;
+    left:0px;
+    width:250px;
+    height:100%;
+    border-right:1px solid ;
+    border-color:rgba(0,22,22,0.4);
+    padding-left:50px;
+  }
+  .twitt{
+    width:270px;
+    background-color: rgb(240, 246, 253);
+    border-radius:15px;
+    margin-left:15%;
+    height:70%;
+  }
+  .fa-cog{
+    font-size: 20px;
+    color:#4999F4 !important;
+    margin-left:30px !important;
+  }
+  #navbar-right li{
+    color: #000;
+    border-bottom:1px solid #bfc0c4;
+    padding:10px;
+    padding-left:20px;
+    list-style: none;
+    position:relative;
+   left:-20px;
+    /* width:90%; */
+  
+  }
+  #navbar-right{
+    position:fixed;
+    min-width:290px;
+    top:0px;
+    right:0px;
+    width:440px;
+    height:100%;
+    border-left:1px solid;
+    border-color:rgba(0,22,22,0.4);
+   
+    
+  }
+  .hash{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size:16px;
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 5px;
+   
+   
+  }
+  small{
+    margin-bottom: 5px;
+  }
+  .trend{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size:20px;
+  }
+  header{
+    color:black;
+    font-size: 30px;
+    margin:10px;
+    text-align:center;
+    font-size:1.8em;
+    font-weight:thin;
+  }
+  .twit{
+    text-align: left;
+    padding:50px;
+  }
+  #main-doc header{
+    text-align:left;
+    margin:0px;
+  }
+  #navbar ul{
+    height:88%;
+    overflow-y:auto;
+    overflow-x:hidden;
+  }
+  .trending {
+    color: #000;
+    border-bottom-width:0px;
+    padding:10px;
+    padding-left:45px;
+    list-style: none;
+    position:relative;
+   left:-50px;
+    width:100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif sans-serif;
+    font-weight: bolder;
+    
+  
+  }
+  .btn{
+    width:190px;
+    padding:15px;
+    text-align: center;
+    background-color: rgba(82, 156, 240, 0.938);
+    border-radius: 25px;
+    color:#ffff;
+    outline:none;
+    border:none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+
+
+  }
+  .fa-bookmark{
+    font-size:30px !important;
+    padding-right: 20px !important;
+  }
+  .fa-list-ul{
+    font-size:30px !important;
+    padding-right: 20px !important;
+  }
+  .fa-home{
+    font-size:30px !important;
+    padding-right: 20px !important;
+  }
+  .fa-bell{
+    font-size:30px !important;
+    padding-right: 20px !important;
+  }
+  .fa-hashtag{
+    font-size:30px !important;
+    padding-right: 20px !important;
+  }
+  .fa-envelope{
+    font-size:30px !important;
+    padding-right: 20px !important;
+  }
+  .fa-user-circle{
+    font-size:30px !important;
+    padding-right: 20px !important;
+  }
+  .fa-info-circle{
+    font-size:30px !important;
+    padding-right: 20px !important;
+  }
+  .fa-twitter{
+    color:#4999F4 !important;
+    font-size:40px !important;
+  }
+  #navbar a{
+    color: #4d4e53;
+      text-decoration:none;
+      cursor:pointer;
+  }
+  #main-doc{
+    position: absolute;
+    margin-left:310px;
+    padding:20px;
+    margin-bottom:110px;
+  }
+  section article{
+    color: #4d4e53;
+    margin:15px;
+    font-size:0.96em;
+  }
+  section li {
+    margin:15px 0px 0px 20px;
+  }
+  
+  @media only screen and (max-width: 815px) {
+      /* For mobile phones: */
+    #navbar ul{
+    border:1px solid;
+      height:207px;
+    }
+      #navbar{
+        background-color:white;
+        position:absolute;
+        top:0;
+        padding:0;
+        margin: 0;
+        width:100%;
+        max-height:275px;
+        border:none;
+        z-index:1;
+        border-bottom:2px solid;
+      }
+    #main-doc{
+      position: relative;
+      margin-left:0px;
+      margin-top:270px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    #main-doc{
+      margin-left:-10px;
+    }
+    
+  }
